@@ -2,7 +2,7 @@
 
 require '../vendor/autoload.php';
 
-use bicisteadm\ISPconfigAPI\ISPconfigAPI as ISPconfigAPIBase;
+use ISPconfigAPI as ISPconfigAPIBase;
 
 class ISPconfigAPI extends ISPconfigAPIBase
 {

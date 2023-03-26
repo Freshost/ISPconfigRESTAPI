@@ -2,8 +2,6 @@
 
 require '../vendor/autoload.php';
 
-use bicisteadm\ISPconfigAPI\ISPconfigAPI;
-
 include "login.php";
 $call = new ISPconfigAPI(['user' => $user, 'pass' => $pass, 'url' => $url]);
 
