@@ -69,4 +69,9 @@ class ISPconfigAPI
         return true;
     }
 
+    public function __destruct() 
+    {
+        $this->logout();
+    }
+
 }
