@@ -1,0 +1,21 @@
+{
+  "name": "freshost/ispconfig-restapi",
+  "description": "API class for ISPconfig RESTAPI",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "type": "package",
+  "authors": [
+    {
+      "name": "Adam Bičiště",
+      "email": "adam@freshost.cz"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*",
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "files": ["src/ISPconfigAPI.php"]
+  }
+}
